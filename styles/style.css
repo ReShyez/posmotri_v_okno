@@ -15,9 +15,12 @@ body {
 }
 
 .page {
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	margin: 0 auto;
   inline-size: 1200px;
   block-size: 100%;
-  margin: 0 auto ;
   color: #fff;
   font-family: Oswald,'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -52,7 +55,6 @@ ol {
   white-space: nowrap;
 } 
 .content {
-	margin: auto 0 ;
 	padding: 133px 30px;
 	width: 1140px;
 	gap: 30px;
