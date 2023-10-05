@@ -17,7 +17,7 @@ body {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  margin: 0 auto ;
   color: #fff;
   font-family: Oswald,'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -220,7 +220,6 @@ ol {
 }
 /*check-box*/
 .search-form__pseudo-checkbox {
-	position: relative;
 	display: block;
 	width: 19px;
 	height: 19px;
@@ -239,7 +238,7 @@ ol {
 	height: 15px;
 	background-color: #FFF;
 	margin: 1px;
-	position: absolute;
+	
 	display: none;
 }
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
@@ -255,7 +254,6 @@ ol {
 	width: 15px;
 	height: 15px;
 	background-color: #FFF;
-	position: absolute;
 }
 /*Основные стили кнопки*/
 .button {
