@@ -1,17 +1,18 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
 	block-size: 100%;
-  height: 100%;
-  width: 100%;
+	height: 100%;
+	width: 100%;
 }
+
 body {
-  height: 100%;
-  width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
 .page {
@@ -19,12 +20,12 @@ body {
 	align-items:center;
 	justify-content: center;
 	margin: 0 auto;
-  inline-size: 1200px;
-  block-size: 100%;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', Arial, sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
+	inline-size: 1200px;
+	block-size: 100%;
+	color: #fff;
+	font-family: 'Fira Sans Condensed', Arial, sans-serif;
+	font-size: 18px;
+	background-color: #1b1919;
 }
 
 h1,
@@ -47,13 +48,13 @@ ol {
 }
 
 .visually-hidden {
-  position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
+	position: absolute;
+	inline-size: 1px;
+	block-size: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	white-space: nowrap;
 } 
 
 .content {
@@ -90,11 +91,7 @@ ol {
 	gap: 30px;
 	block-size: 298px;
 	margin-top: 26px;
-	overflow: scroll;
-	overflow-x:hidden;
-}
-.content__list::-webkit-scrollbar {
-  display: none;
+	overflow: auto;
 }
 
 .content__details {
@@ -102,6 +99,7 @@ ol {
 	flex-direction: column;
 	justify-content: end;
 }
+
 .content__video-card {
 	display: flex;
 	flex-direction: row;
@@ -125,7 +123,6 @@ ol {
 	display: block;
 }
 
-
 .title {
 	color: #FFF;
 	font-size: 75px;
@@ -146,7 +143,6 @@ ol {
 	font-weight: 700;
 	line-height: 1;
 	text-transform: uppercase;
-	margin-bottom: 6px;
 	font-family: Oswald, Arial, sans-serif;
 }
 
@@ -231,7 +227,6 @@ ol {
 	outline-offset: 1px;
 }
 
-
 .search-form__label:has(:focus-visible) {
 	outline: 1px solid #fff;
 	outline-offset: 2px;
@@ -288,7 +283,6 @@ ol {
 	border: 1px solid #FFF;
 	cursor: pointer;
 }
-
 /*кнопка поиска формы*/
 .search-form__submit-button {
 	width: 194px;
@@ -303,12 +297,15 @@ ol {
 .button:active{
 	background: #545050;
 }
+
 .button:hover {
 	text-decoration: underline;
 }
+
 .button:focus {
 	outline: none;
 }
+
 .button:focus-visible {
 	outline: 1px solid #fff;
 	outline-offset: 1px;
@@ -334,8 +331,6 @@ ol {
 .content__card-link:hover {
 	text-decoration: underline;
 }
-
-
 
 .content__card-link:focus {
 	outline: none;
